@@ -1,12 +1,12 @@
 import $ from "jquery";
 const _ = require('lodash');
 
-$(document).ready(function(){
+$(function(){
   let count = 0
   function updateCounter() {
       count ++;
       $('#count').html(`${count} clicks on the button`);
-  }
+  };
   
   $('body').append('<p>Holberton Dashboard</p>')
   $('body').append('<p>Dashboard data for the students</p>')
