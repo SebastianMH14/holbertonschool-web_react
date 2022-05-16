@@ -1,7 +1,7 @@
 import $ from "jquery";
 const _ = require('lodash');
 
-$(function(){
+$.when( $.ready ).then(function(){
   let count = 0
   function updateCounter() {
       count ++;
