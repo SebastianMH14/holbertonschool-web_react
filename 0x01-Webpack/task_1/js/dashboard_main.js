@@ -1,10 +1,11 @@
 import $ from "jquery";
+const _ = require('lodash');
 
 $(document).ready(function(){
   let count = 0
   function updateCounter() {
       count ++;
-      $('#count').html(`${counter} clicks on the button`);
+      $('#count').html(`${count} clicks on the button`);
   }
   
   $('body').append('<p>Holberton Dashboard</p>')
